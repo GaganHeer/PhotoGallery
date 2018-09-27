@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.photogallery.SearchActivity">
+
+    <EditText
+        android:id="@+id/keywordText"
+        android:layout_width="242dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="@string/keyword_hint"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="208dp"
+        android:onClick="searchForKeyword"
+        android:text="@string/search_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/keywordText" />
+
+    <EditText
+        android:id="@+id/startDateText"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="@string/date_hint"
+        android:inputType="datetime"
+        app:layout_constraintStart_toStartOf="@+id/keywordText"
+        app:layout_constraintTop_toBottomOf="@+id/keywordText" />
+
+    <EditText
+        android:id="@+id/endDateText"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="@string/date_hint"
+        android:inputType="datetime"
+        app:layout_constraintEnd_toEndOf="@+id/keywordText"
+        app:layout_constraintTop_toBottomOf="@+id/keywordText" />
+
+    <EditText
+        android:id="@+id/latText"
+        android:layout_width="103dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/lat_Hint"
+        android:inputType="textPersonName|numberDecimal"
+        app:layout_constraintStart_toStartOf="@+id/startDateText"
+        app:layout_constraintTop_toBottomOf="@+id/startDateText" />
+
+    <EditText
+        android:id="@+id/longText"
+        android:layout_width="103dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/long_hint"
+        android:inputType="textPersonName|numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/endDateText"
+        app:layout_constraintTop_toBottomOf="@+id/endDateText" />
+</android.support.constraint.ConstraintLayout>

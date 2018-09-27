@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PhotoGallery</string>
+    <string name="left_button">&lt;</string>
+    <string name="right_button">&gt;</string>
+    <string name="snap_button">SNAP</string>
+    <string name="filter_button">FILTER</string>
+    <string name="upload_button">UPLOAD</string>
+    <string name="caption_hint">Enter a caption</string>
+    <string name="keyword_hint">Enter a keyword</string>
+    <string name="search_button">SEARCH</string>
+    <string name="date_hint">dd/mm/yy</string>
+    <string name="lat_Hint">Latitude</string>
+    <string name="long_hint">Longitude</string>
+    <string name="save_button">Save</string>
+    <string name="gallery_view">gallery</string>
+    <string name="timestamp_text">Timestamp</string>
+    <string name="geotag_text">Geotag</string>
+</resources>
