@@ -8,11 +8,15 @@
     <string name="caption_hint">Enter a caption</string>
     <string name="keyword_hint">Enter a keyword</string>
     <string name="search_button">SEARCH</string>
-    <string name="date_hint">dd/mm/yy</string>
+    <string name="date_hint">yyyyMMdd</string>
     <string name="lat_Hint">Latitude</string>
     <string name="long_hint">Longitude</string>
     <string name="save_button">Save</string>
     <string name="gallery_view">gallery</string>
     <string name="timestamp_text">Timestamp</string>
     <string name="geotag_text">Geotag</string>
+    <string name="startDate_text">Start Date</string>
+    <string name="endDate_text">End Date</string>
+    <string name="topLeft_text">Top Left</string>
+    <string name="bottomRight_text">Bottom Right</string>
 </resources>
